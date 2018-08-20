@@ -1,0 +1,347 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AMLParameterObject>
+  <Url>https://ussouthcentral.services.azureml.net/workspaces/13a2778502ab48fa96da20bdebe11552/services/760be241f9eb4434857c3e1de9234914/execute?api-version=2.0&amp;details=true</Url>
+  <APIKey>1o/du9tlwgcHzii557bB0cVf/eBJSy6Jxn1rPV3x2/o/VBb0a5fVgLY+4N7al6Vu3iYVdfP63go88AYVOQ7ZgA==</APIKey>
+  <Title>LaptopsPrices</Title>
+  <Description>No description provided for this web service.</Description>
+  <InputGroup>input</InputGroup>
+  <InputParameter>
+    <Enable>true</Enable>
+    <Alias />
+    <Description />
+    <StrEnum />
+    <Name>Company</Name>
+    <Type>string</Type>
+    <Format />
+    <MaxValue>100</MaxValue>
+    <MinValue>0</MinValue>
+    <DefaultValue />
+    <Group>input</Group>
+  </InputParameter>
+  <InputParameter>
+    <Enable>true</Enable>
+    <Alias />
+    <Description />
+    <StrEnum />
+    <Name>Product</Name>
+    <Type>string</Type>
+    <Format />
+    <MaxValue>100</MaxValue>
+    <MinValue>0</MinValue>
+    <DefaultValue />
+    <Group>input</Group>
+  </InputParameter>
+  <InputParameter>
+    <Enable>true</Enable>
+    <Alias />
+    <Description />
+    <StrEnum />
+    <Name>TypeName</Name>
+    <Type>string</Type>
+    <Format />
+    <MaxValue>100</MaxValue>
+    <MinValue>0</MinValue>
+    <DefaultValue />
+    <Group>input</Group>
+  </InputParameter>
+  <InputParameter>
+    <Enable>true</Enable>
+    <Alias />
+    <Description />
+    <StrEnum />
+    <Name>Inches</Name>
+    <Type>number</Type>
+    <Format>double</Format>
+    <MaxValue>21</MaxValue>
+    <MinValue>0</MinValue>
+    <DefaultValue>0</DefaultValue>
+    <Group>input</Group>
+  </InputParameter>
+  <InputParameter>
+    <Enable>true</Enable>
+    <Alias />
+    <Description />
+    <StrEnum />
+    <Name>ScreenResolution</Name>
+    <Type>string</Type>
+    <Format />
+    <MaxValue>100</MaxValue>
+    <MinValue>0</MinValue>
+    <DefaultValue />
+    <Group>input</Group>
+  </InputParameter>
+  <InputParameter>
+    <Enable>true</Enable>
+    <Alias />
+    <Description />
+    <StrEnum />
+    <Name>Cpu</Name>
+    <Type>string</Type>
+    <Format />
+    <MaxValue>100</MaxValue>
+    <MinValue>0</MinValue>
+    <DefaultValue />
+    <Group>input</Group>
+  </InputParameter>
+  <InputParameter>
+    <Enable>true</Enable>
+    <Alias />
+    <Description />
+    <StrEnum />
+    <Name>Ram</Name>
+    <Type>string</Type>
+    <Format />
+    <MaxValue>100</MaxValue>
+    <MinValue>0</MinValue>
+    <DefaultValue />
+    <Group>input</Group>
+  </InputParameter>
+  <InputParameter>
+    <Enable>true</Enable>
+    <Alias />
+    <Description />
+    <StrEnum />
+    <Name>Memory</Name>
+    <Type>string</Type>
+    <Format />
+    <MaxValue>100</MaxValue>
+    <MinValue>0</MinValue>
+    <DefaultValue />
+    <Group>input</Group>
+  </InputParameter>
+  <InputParameter>
+    <Enable>true</Enable>
+    <Alias />
+    <Description />
+    <StrEnum />
+    <Name>Gpu</Name>
+    <Type>string</Type>
+    <Format />
+    <MaxValue>100</MaxValue>
+    <MinValue>0</MinValue>
+    <DefaultValue />
+    <Group>input</Group>
+  </InputParameter>
+  <InputParameter>
+    <Enable>true</Enable>
+    <Alias />
+    <Description />
+    <StrEnum />
+    <Name>OpSys</Name>
+    <Type>string</Type>
+    <Format />
+    <MaxValue>100</MaxValue>
+    <MinValue>0</MinValue>
+    <DefaultValue />
+    <Group>input</Group>
+  </InputParameter>
+  <InputParameter>
+    <Enable>true</Enable>
+    <Alias />
+    <Description />
+    <StrEnum />
+    <Name>Weight</Name>
+    <Type>string</Type>
+    <Format />
+    <MaxValue>100</MaxValue>
+    <MinValue>0</MinValue>
+    <DefaultValue />
+    <Group>input</Group>
+  </InputParameter>
+  <InputParameter>
+    <Enable>true</Enable>
+    <Alias />
+    <Description />
+    <StrEnum />
+    <Name>Price_euros</Name>
+    <Type>number</Type>
+    <Format>double</Format>
+    <MaxValue>4000</MaxValue>
+    <MinValue>0</MinValue>
+    <DefaultValue>0</DefaultValue>
+    <Group>input</Group>
+  </InputParameter>
+  <OutputParameter>
+    <Enable>false</Enable>
+    <Alias />
+    <Description />
+    <StrEnum />
+    <Name>Company</Name>
+    <Type>string</Type>
+    <Format />
+    <MaxValue>100</MaxValue>
+    <MinValue>0</MinValue>
+    <DefaultValue />
+    <Group>output</Group>
+  </OutputParameter>
+  <OutputParameter>
+    <Enable>false</Enable>
+    <Alias />
+    <Description />
+    <StrEnum />
+    <Name>Product</Name>
+    <Type>string</Type>
+    <Format />
+    <MaxValue>100</MaxValue>
+    <MinValue>0</MinValue>
+    <DefaultValue />
+    <Group>output</Group>
+  </OutputParameter>
+  <OutputParameter>
+    <Enable>false</Enable>
+    <Alias />
+    <Description />
+    <StrEnum />
+    <Name>TypeName</Name>
+    <Type>string</Type>
+    <Format />
+    <MaxValue>100</MaxValue>
+    <MinValue>0</MinValue>
+    <DefaultValue />
+    <Group>output</Group>
+  </OutputParameter>
+  <OutputParameter>
+    <Enable>false</Enable>
+    <Alias />
+    <Description />
+    <StrEnum />
+    <Name>Inches</Name>
+    <Type>number</Type>
+    <Format>double</Format>
+    <MaxValue>100</MaxValue>
+    <MinValue>0</MinValue>
+    <DefaultValue>0</DefaultValue>
+    <Group>output</Group>
+  </OutputParameter>
+  <OutputParameter>
+    <Enable>false</Enable>
+    <Alias />
+    <Description />
+    <StrEnum />
+    <Name>ScreenResolution</Name>
+    <Type>string</Type>
+    <Format />
+    <MaxValue>100</MaxValue>
+    <MinValue>0</MinValue>
+    <DefaultValue />
+    <Group>output</Group>
+  </OutputParameter>
+  <OutputParameter>
+    <Enable>false</Enable>
+    <Alias />
+    <Description />
+    <StrEnum />
+    <Name>Cpu</Name>
+    <Type>string</Type>
+    <Format />
+    <MaxValue>100</MaxValue>
+    <MinValue>0</MinValue>
+    <DefaultValue />
+    <Group>output</Group>
+  </OutputParameter>
+  <OutputParameter>
+    <Enable>false</Enable>
+    <Alias />
+    <Description />
+    <StrEnum />
+    <Name>Ram</Name>
+    <Type>string</Type>
+    <Format />
+    <MaxValue>100</MaxValue>
+    <MinValue>0</MinValue>
+    <DefaultValue />
+    <Group>output</Group>
+  </OutputParameter>
+  <OutputParameter>
+    <Enable>false</Enable>
+    <Alias />
+    <Description />
+    <StrEnum />
+    <Name>Memory</Name>
+    <Type>string</Type>
+    <Format />
+    <MaxValue>100</MaxValue>
+    <MinValue>0</MinValue>
+    <DefaultValue />
+    <Group>output</Group>
+  </OutputParameter>
+  <OutputParameter>
+    <Enable>false</Enable>
+    <Alias />
+    <Description />
+    <StrEnum />
+    <Name>Gpu</Name>
+    <Type>string</Type>
+    <Format />
+    <MaxValue>100</MaxValue>
+    <MinValue>0</MinValue>
+    <DefaultValue />
+    <Group>output</Group>
+  </OutputParameter>
+  <OutputParameter>
+    <Enable>false</Enable>
+    <Alias />
+    <Description />
+    <StrEnum />
+    <Name>OpSys</Name>
+    <Type>string</Type>
+    <Format />
+    <MaxValue>100</MaxValue>
+    <MinValue>0</MinValue>
+    <DefaultValue />
+    <Group>output</Group>
+  </OutputParameter>
+  <OutputParameter>
+    <Enable>false</Enable>
+    <Alias />
+    <Description />
+    <StrEnum />
+    <Name>Weight</Name>
+    <Type>string</Type>
+    <Format />
+    <MaxValue>100</MaxValue>
+    <MinValue>0</MinValue>
+    <DefaultValue />
+    <Group>output</Group>
+  </OutputParameter>
+  <OutputParameter>
+    <Enable>false</Enable>
+    <Alias />
+    <Description />
+    <StrEnum />
+    <Name>Price_euros</Name>
+    <Type>number</Type>
+    <Format>double</Format>
+    <MaxValue>100</MaxValue>
+    <MinValue>0</MinValue>
+    <DefaultValue>0</DefaultValue>
+    <Group>output</Group>
+  </OutputParameter>
+  <OutputParameter>
+    <Enable>true</Enable>
+    <Alias />
+    <Description />
+    <StrEnum />
+    <Name>Price (EUR)</Name>
+    <Type>number</Type>
+    <Format>double</Format>
+    <MaxValue>100</MaxValue>
+    <MinValue>0</MinValue>
+    <DefaultValue>0</DefaultValue>
+    <Group>output</Group>
+  </OutputParameter>
+  <OutputParameter>
+    <Enable>false</Enable>
+    <Alias />
+    <Description />
+    <StrEnum />
+    <Name>Scored Label Standard Deviation</Name>
+    <Type>number</Type>
+    <Format>double</Format>
+    <MaxValue>100</MaxValue>
+    <MinValue>0</MinValue>
+    <DefaultValue>0</DefaultValue>
+    <Group>output</Group>
+  </OutputParameter>
+  <Copyright />
+</AMLParameterObject>
